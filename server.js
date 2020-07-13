@@ -5,6 +5,7 @@ const logger = require("morgan")
 const postsRoutes = require("./routes/posts")
 const db = require("./db/connection")
 const PORT = process.env.PORT || 3000
+const mongoose = require("mongoose")
 
 
 
