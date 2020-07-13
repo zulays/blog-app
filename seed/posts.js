@@ -3,7 +3,7 @@ const Post = require("../models/post")
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"))
 
-const main = () => {
+const main = async () => {
   const posts = [
     {
       "title": "Post 001",
