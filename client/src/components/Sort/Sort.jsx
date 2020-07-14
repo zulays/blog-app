@@ -13,8 +13,6 @@ const Sort = (props) => {
       <select className="sort" onChange={handleChange}>
         <option className="option" value="title-asc" >&nbsp; Alphabetically, A-Z &nbsp;</option>
         <option value="title-desc">&nbsp; Alphabetically, Z-A &nbsp;</option>
-        {/* <option value="price-ascending">&nbsp; Price, low to high &nbsp;</option>
-        <option value="price-descending">&nbsp; Price, high to low &nbsp;</option> */}
       </select>
     </form>
   )
