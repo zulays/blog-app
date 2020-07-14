@@ -30,7 +30,7 @@ class Posts extends Component {
 
   handleSearch = e => {
     const sort = () => this.handleSort(this.state.sortType)
-    const queriedPosts = this.state.allPosts.filter(product => product.name.toLowerCase().includes(e.target.value.toLowerCase()))
+    const queriedPosts = this.state.allPosts.filter(post => post.name.toLowerCase().includes(e.target.value.toLowerCase()))
     this.setState({ queriedPosts }, sort)
   }
 
