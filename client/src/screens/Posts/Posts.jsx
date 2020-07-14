@@ -5,7 +5,7 @@ import Post from "../../components/Post/Post"
 import Search from "../../components/Search/Search"
 import { AZ, ZA } from "../../utils/sort"
 import Sort from "../../components/Sort/Sort"
-import Layout from "../../components/Layout/Layout"
+import Layout from "../../components/shared/Layout/Layout"
 import { getPosts } from "../../services/posts"
 
 
@@ -63,7 +63,7 @@ class Posts extends Component {
     return (
       <Layout>
         <Search onSubmit={this.handleSubmit} onChange={this.handleSearch} />
-        <SOrt onSubmit={this.handleSubmit} onChange={this.handleSort} />
+        <Sort onSubmit={this.handleSubmit} onChange={this.handleSort} />
         <div className="posts">
           {postsJSX}
         </div>

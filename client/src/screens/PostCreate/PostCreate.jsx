@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./PostCreate.css";
-import Layout from "../../components/Search/shared/Layout/Layout";
+import Layout from "../../components/shared/Layout/Layout";
 import { Redirect } from "react-router-dom";
 import { createPost } from "../../services/posts";
 
