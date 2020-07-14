@@ -26,11 +26,11 @@ class PostEdit extends Component {
 
 
   handleChange = (event) => {
-    const { title, value } = event.target
+    const { name, value } = event.target
     this.setState({
       post: {
         ...this.state.post,
-        [title]: value
+        [name]: value
       }
     })
   }
