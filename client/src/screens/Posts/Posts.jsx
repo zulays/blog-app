@@ -24,7 +24,7 @@ class Posts extends Component {
     const allPosts = await getPosts()
     this.setState({
       allPosts: allPosts,
-      queriedPosts: queriedPosts
+      queriedPosts: allPosts
     })
   }
 
